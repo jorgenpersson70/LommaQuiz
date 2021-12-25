@@ -7,23 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0B56D627151D8740F716C62 /* Pods_LommaQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515A706D318EEF395422925C /* Pods_LommaQuiz.framework */; };
+		FA48392F276CA2320078CF24 /* VCCopyWalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48392E276CA2320078CF24 /* VCCopyWalk.swift */; };
 		FAD9836C275E7A88004CA143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9836B275E7A88004CA143 /* AppDelegate.swift */; };
 		FAD9836E275E7A88004CA143 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9836D275E7A88004CA143 /* SceneDelegate.swift */; };
-		FAD98370275E7A88004CA143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9836F275E7A88004CA143 /* ViewController.swift */; };
-		FAD98373275E7A88004CA143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD98371275E7A88004CA143 /* Main.storyboard */; };
-		FAD98375275E7A8A004CA143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD98374275E7A8A004CA143 /* Assets.xcassets */; };
 		FAD98378275E7A8A004CA143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD98376275E7A8A004CA143 /* LaunchScreen.storyboard */; };
+		FAD98382275E7DAF004CA143 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD98381275E7DAE004CA143 /* GoogleService-Info.plist */; };
+		FAD98384275E7E43004CA143 /* Pling-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAD98383275E7E42004CA143 /* Pling-sound-effect.mp3 */; };
+		FAD98386275E7E64004CA143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD98385275E7E64004CA143 /* Assets.xcassets */; };
+		FAD98388275E7E82004CA143 /* runBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD98387275E7E81004CA143 /* runBackGround.swift */; };
+		FAD9838A275E7E91004CA143 /* VCGPSMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD98389275E7E91004CA143 /* VCGPSMap.swift */; };
+		FAD9838C275E7EB2004CA143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9838B275E7EB2004CA143 /* ViewController.swift */; };
+		FAD9838E275E7EDB004CA143 /* VCShowWalk2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9838D275E7EDB004CA143 /* VCShowWalk2.swift */; };
+		FAD98390275E7EF5004CA143 /* VCSetCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9838F275E7EF5004CA143 /* VCSetCoords.swift */; };
+		FAD98392275E7F00004CA143 /* VCChooseSetCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD98391275E7F00004CA143 /* VCChooseSetCoords.swift */; };
+		FAD98394275E7F0B004CA143 /* TableViewCellDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD98393275E7F0B004CA143 /* TableViewCellDate.swift */; };
+		FAD98396275E7F16004CA143 /* VCTestSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD98395275E7F16004CA143 /* VCTestSound.swift */; };
+		FAD98398275E7F20004CA143 /* VCSeeResultOneByOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD98397275E7F20004CA143 /* VCSeeResultOneByOne.swift */; };
+		FAD9839A275E7F29004CA143 /* VCResultat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD98399275E7F28004CA143 /* VCResultat.swift */; };
+		FAD9839C275E7F31004CA143 /* VCWalkKm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9839B275E7F30004CA143 /* VCWalkKm.swift */; };
+		FAD9839E275E7F3A004CA143 /* VCChoseKm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9839D275E7F3A004CA143 /* VCChoseKm.swift */; };
+		FAD983A0275E7F46004CA143 /* VCWriteQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9839F275E7F46004CA143 /* VCWriteQuestion.swift */; };
+		FAD983A2275E7F4E004CA143 /* VCTwelveQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD983A1275E7F4E004CA143 /* VCTwelveQuestions.swift */; };
+		FAD983A6275E7F60004CA143 /* RadenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD983A5275E7F60004CA143 /* RadenTableViewCell.swift */; };
+		FAD983AC275E7F7E004CA143 /* VCShowImageNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD983AB275E7F7E004CA143 /* VCShowImageNew.swift */; };
+		FAD983AE275E7F88004CA143 /* annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD983AD275E7F88004CA143 /* annotation.swift */; };
+		FAD983B0275E7F91004CA143 /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD983AF275E7F90004CA143 /* VCLogin.swift */; };
+		FAD983B2275E7F99004CA143 /* VCAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD983B1275E7F99004CA143 /* VCAuth.swift */; };
+		FAD983B4275E8013004CA143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD983B3275E8013004CA143 /* Main.storyboard */; };
+		FAF860F32770EBEA003126AB /* VCSomeQuestMissed.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF860F22770EBEA003126AB /* VCSomeQuestMissed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		515A706D318EEF395422925C /* Pods_LommaQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LommaQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC53A8351F3BE8EF999E13F /* Pods-LommaQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LommaQuiz.release.xcconfig"; path = "Target Support Files/Pods-LommaQuiz/Pods-LommaQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		E17D57483CA65CA065C1D58C /* Pods-LommaQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LommaQuiz.debug.xcconfig"; path = "Target Support Files/Pods-LommaQuiz/Pods-LommaQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		FA48392E276CA2320078CF24 /* VCCopyWalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCopyWalk.swift; sourceTree = "<group>"; };
 		FAD98368275E7A88004CA143 /* LommaQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LommaQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9836B275E7A88004CA143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD9836D275E7A88004CA143 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAD9836F275E7A88004CA143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAD98372275E7A88004CA143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAD98374275E7A8A004CA143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD98377275E7A8A004CA143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD98379275E7A8A004CA143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD98381275E7DAE004CA143 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAD98383275E7E42004CA143 /* Pling-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pling-sound-effect.mp3"; sourceTree = "<group>"; };
+		FAD98385275E7E64004CA143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD98387275E7E81004CA143 /* runBackGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = runBackGround.swift; sourceTree = "<group>"; };
+		FAD98389275E7E91004CA143 /* VCGPSMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCGPSMap.swift; sourceTree = "<group>"; };
+		FAD9838B275E7EB2004CA143 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD9838D275E7EDB004CA143 /* VCShowWalk2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCShowWalk2.swift; sourceTree = "<group>"; };
+		FAD9838F275E7EF5004CA143 /* VCSetCoords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSetCoords.swift; sourceTree = "<group>"; };
+		FAD98391275E7F00004CA143 /* VCChooseSetCoords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCChooseSetCoords.swift; sourceTree = "<group>"; };
+		FAD98393275E7F0B004CA143 /* TableViewCellDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellDate.swift; sourceTree = "<group>"; };
+		FAD98395275E7F16004CA143 /* VCTestSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTestSound.swift; sourceTree = "<group>"; };
+		FAD98397275E7F20004CA143 /* VCSeeResultOneByOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSeeResultOneByOne.swift; sourceTree = "<group>"; };
+		FAD98399275E7F28004CA143 /* VCResultat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCResultat.swift; sourceTree = "<group>"; };
+		FAD9839B275E7F30004CA143 /* VCWalkKm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCWalkKm.swift; sourceTree = "<group>"; };
+		FAD9839D275E7F3A004CA143 /* VCChoseKm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCChoseKm.swift; sourceTree = "<group>"; };
+		FAD9839F275E7F46004CA143 /* VCWriteQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCWriteQuestion.swift; sourceTree = "<group>"; };
+		FAD983A1275E7F4E004CA143 /* VCTwelveQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTwelveQuestions.swift; sourceTree = "<group>"; };
+		FAD983A5275E7F60004CA143 /* RadenTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadenTableViewCell.swift; sourceTree = "<group>"; };
+		FAD983AB275E7F7E004CA143 /* VCShowImageNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCShowImageNew.swift; sourceTree = "<group>"; };
+		FAD983AD275E7F88004CA143 /* annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotation.swift; sourceTree = "<group>"; };
+		FAD983AF275E7F90004CA143 /* VCLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
+		FAD983B1275E7F99004CA143 /* VCAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCAuth.swift; sourceTree = "<group>"; };
+		FAD983B3275E8013004CA143 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FAF860F22770EBEA003126AB /* VCSomeQuestMissed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSomeQuestMissed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +79,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B56D627151D8740F716C62 /* Pods_LommaQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2781B7F2368DD73C76E456F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515A706D318EEF395422925C /* Pods_LommaQuiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6ECC7A14B8B6839766FF21E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E17D57483CA65CA065C1D58C /* Pods-LommaQuiz.debug.xcconfig */,
+				CBC53A8351F3BE8EF999E13F /* Pods-LommaQuiz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAD9835F275E7A88004CA143 = {
 			isa = PBXGroup;
 			children = (
+				FAD98387275E7E81004CA143 /* runBackGround.swift */,
 				FAD9836A275E7A88004CA143 /* LommaQuiz */,
 				FAD98369275E7A88004CA143 /* Products */,
+				C6ECC7A14B8B6839766FF21E /* Pods */,
+				2781B7F2368DD73C76E456F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +125,34 @@
 		FAD9836A275E7A88004CA143 /* LommaQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				FAD98381275E7DAE004CA143 /* GoogleService-Info.plist */,
+				FAD98383275E7E42004CA143 /* Pling-sound-effect.mp3 */,
+				FAD98389275E7E91004CA143 /* VCGPSMap.swift */,
 				FAD9836B275E7A88004CA143 /* AppDelegate.swift */,
 				FAD9836D275E7A88004CA143 /* SceneDelegate.swift */,
-				FAD9836F275E7A88004CA143 /* ViewController.swift */,
-				FAD98371275E7A88004CA143 /* Main.storyboard */,
-				FAD98374275E7A8A004CA143 /* Assets.xcassets */,
+				FAD9838B275E7EB2004CA143 /* ViewController.swift */,
+				FAD983B3275E8013004CA143 /* Main.storyboard */,
+				FAD9838D275E7EDB004CA143 /* VCShowWalk2.swift */,
+				FAD9838F275E7EF5004CA143 /* VCSetCoords.swift */,
+				FAD98391275E7F00004CA143 /* VCChooseSetCoords.swift */,
+				FAD98393275E7F0B004CA143 /* TableViewCellDate.swift */,
+				FAD98395275E7F16004CA143 /* VCTestSound.swift */,
+				FAD98397275E7F20004CA143 /* VCSeeResultOneByOne.swift */,
+				FAD98399275E7F28004CA143 /* VCResultat.swift */,
+				FAD9839B275E7F30004CA143 /* VCWalkKm.swift */,
+				FAD9839D275E7F3A004CA143 /* VCChoseKm.swift */,
+				FAD9839F275E7F46004CA143 /* VCWriteQuestion.swift */,
+				FAD983A1275E7F4E004CA143 /* VCTwelveQuestions.swift */,
+				FAD983A5275E7F60004CA143 /* RadenTableViewCell.swift */,
+				FAD98385275E7E64004CA143 /* Assets.xcassets */,
 				FAD98376275E7A8A004CA143 /* LaunchScreen.storyboard */,
 				FAD98379275E7A8A004CA143 /* Info.plist */,
+				FAD983AB275E7F7E004CA143 /* VCShowImageNew.swift */,
+				FAD983AD275E7F88004CA143 /* annotation.swift */,
+				FAD983AF275E7F90004CA143 /* VCLogin.swift */,
+				FAD983B1275E7F99004CA143 /* VCAuth.swift */,
+				FA48392E276CA2320078CF24 /* VCCopyWalk.swift */,
+				FAF860F22770EBEA003126AB /* VCSomeQuestMissed.swift */,
 			);
 			path = LommaQuiz;
 			sourceTree = "<group>";
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD9837C275E7A8A004CA143 /* Build configuration list for PBXNativeTarget "LommaQuiz" */;
 			buildPhases = (
+				F957E939CF68771271698F41 /* [CP] Check Pods Manifest.lock */,
 				FAD98364275E7A88004CA143 /* Sources */,
 				FAD98365275E7A88004CA143 /* Frameworks */,
 				FAD98366275E7A88004CA143 /* Resources */,
+				9976BC4036276FB4A52CAB7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +218,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD98378275E7A8A004CA143 /* LaunchScreen.storyboard in Resources */,
-				FAD98375275E7A8A004CA143 /* Assets.xcassets in Resources */,
-				FAD98373275E7A88004CA143 /* Main.storyboard in Resources */,
+				FAD983B4275E8013004CA143 /* Main.storyboard in Resources */,
+				FAD98382275E7DAF004CA143 /* GoogleService-Info.plist in Resources */,
+				FAD98384275E7E43004CA143 /* Pling-sound-effect.mp3 in Resources */,
+				FAD98386275E7E64004CA143 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9976BC4036276FB4A52CAB7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LommaQuiz/Pods-LommaQuiz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LommaQuiz/Pods-LommaQuiz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LommaQuiz/Pods-LommaQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F957E939CF68771271698F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LommaQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAD98364275E7A88004CA143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD98370275E7A88004CA143 /* ViewController.swift in Sources */,
+				FAD9838C275E7EB2004CA143 /* ViewController.swift in Sources */,
+				FAD9839E275E7F3A004CA143 /* VCChoseKm.swift in Sources */,
+				FAD983AE275E7F88004CA143 /* annotation.swift in Sources */,
+				FAD9838E275E7EDB004CA143 /* VCShowWalk2.swift in Sources */,
+				FAD983A6275E7F60004CA143 /* RadenTableViewCell.swift in Sources */,
+				FAD98392275E7F00004CA143 /* VCChooseSetCoords.swift in Sources */,
+				FAD98394275E7F0B004CA143 /* TableViewCellDate.swift in Sources */,
+				FAD983B2275E7F99004CA143 /* VCAuth.swift in Sources */,
+				FAD9839A275E7F29004CA143 /* VCResultat.swift in Sources */,
+				FAD9838A275E7E91004CA143 /* VCGPSMap.swift in Sources */,
+				FA48392F276CA2320078CF24 /* VCCopyWalk.swift in Sources */,
 				FAD9836C275E7A88004CA143 /* AppDelegate.swift in Sources */,
 				FAD9836E275E7A88004CA143 /* SceneDelegate.swift in Sources */,
+				FAD98398275E7F20004CA143 /* VCSeeResultOneByOne.swift in Sources */,
+				FAD983A0275E7F46004CA143 /* VCWriteQuestion.swift in Sources */,
+				FAF860F32770EBEA003126AB /* VCSomeQuestMissed.swift in Sources */,
+				FAD98390275E7EF5004CA143 /* VCSetCoords.swift in Sources */,
+				FAD98396275E7F16004CA143 /* VCTestSound.swift in Sources */,
+				FAD983A2275E7F4E004CA143 /* VCTwelveQuestions.swift in Sources */,
+				FAD983B0275E7F91004CA143 /* VCLogin.swift in Sources */,
+				FAD983AC275E7F7E004CA143 /* VCShowImageNew.swift in Sources */,
+				FAD98388275E7E82004CA143 /* runBackGround.swift in Sources */,
+				FAD9839C275E7F31004CA143 /* VCWalkKm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAD98371275E7A88004CA143 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAD98372275E7A88004CA143 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAD98376275E7A8A004CA143 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,19 +432,26 @@
 		};
 		FAD9837D275E7A8A004CA143 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17D57483CA65CA065C1D58C /* Pods-LommaQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202112211750;
 				DEVELOPMENT_TEAM = U77KX73954;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LommaQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Frågerundan";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Denna app önskar din tillåtelse att använda din position för att presentera frågor. Om du tillåter detta så kommer appen att även kontrollera när appen går i bakgrundsläge. Detta kostar ingen kommunikation som påverkar din surfmängd.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Denna app önskar din tillåtelse att använda din position för att presentera frågor. I detta läge så kontrollerar appen inte när den går i bakgrundsläge. Detta kostar ingen kommunikation som påverkar din surfmängd.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,25 +461,32 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FAD9837E275E7A8A004CA143 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC53A8351F3BE8EF999E13F /* Pods-LommaQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202112211750;
 				DEVELOPMENT_TEAM = U77KX73954;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LommaQuiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Frågerundan";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Denna app önskar din tillåtelse att använda din position för att presentera frågor. Om du tillåter detta så kommer appen att även kontrollera när appen går i bakgrundsläge. Detta kostar ingen kommunikation som påverkar din surfmängd.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Denna app önskar din tillåtelse att använda din position för att presentera frågor. I detta läge så kontrollerar appen inte när den går i bakgrundsläge. Detta kostar ingen kommunikation som påverkar din surfmängd.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
